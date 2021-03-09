@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    
+    .tabs_part .collapsible {
+        color: #000;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: all linear .3s;
+        background: #f7f7f7;
+        font-weight: 500;
+        border-bottom: 1px solid #e2e7ed;
+        border-top: 1px solid #e2e7ed;
+    }
+    
+    
+    
+    .tabs_part .active,
+    .tabs_part .collapsible:hover {
+        background-color: #0984e3;
+        color: #fff;
+    }
+
+    .tabs_part .collapsible:after {
+        content: '\002B';
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+
+    .tabs_part .active:after {
+        content: "\2212";
+    }
+
+    .tabs_part .content {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #f0f3f7;
+        padding-left: 60px;
+        transition: all linear .3s;
+    }
+    .tabs_part .content p {
+        color: #0984e3;
+        line-height: 24px;
+    }
+    
+    .tabs_part .collapsible span {
+        padding-right: 20px;
+    }
+</style>
+</head>
+<body>
+
+
+
+<div class="tabs_part">
+
+    <button class="collapsible"><span>01</span> Temas Básicos</button>
+    <div class="content">
+        <p>Introducción y Bienvenida</p>
+        <p>Sustancias Puras</p>
+        <p>Mezclas</p>
+        <p>Coloides</p>
+        <p>Cambios Físicos o Químicos</p>
+        <p>Fenómenos, Propiedades y Métodos</p>
+        <p>Examen #1</p>
+        <p>Introducción a la Historia del Átomo</p>
+        <p>Modelos Atómicos</p>
+        <p>Cálculo de Partículas Subatómicas Átomos Neutros</p>
+        <p>Cálculo de Partículas Subatómicas Iones e Isótopos</p>
+        <p>Cálculo de Masa Atómica Promedio</p>
+        <p>Examen #2</p>
+        <p>Modelo Orbital (Modelo Actual)</p>
+        <p>Configuración Electrónica Átomos Neutros</p>
+        <p>Configuración Electrónica de Iones</p>
+        <p>Revisión de tarea de configuración electrónica de iones</p>
+        <p>Diagrama de Orbital</p>
+        <p>Cálculo de Números Cuánticos</p>
+        <p>Examen #3</p>
+        <p>Introducción a Propiedades Periódicas</p>
+        <p>Radio Atómico y Radio Iónico</p>
+        <p>Quiz #1</p>
+        <p>Energía de Ionización, Afinidad Electrónica y Electronegatividad</p>
+        <p>Quiz #2</p>
+        <p>Resumen de Propiedades Periódicas</p>
+        <p>Examen #4</p>
+        <p>Tipos de Enlaces Químicos</p>
+        <p>Propiedades de Sustancias Iónica, Covalentes y Metálicas</p>
+        <p>Quiz #3</p>
+        <p>Estructuras de Lewis</p>
+        <p>Geometría Molecular</p>
+        <p>Examen #5</p>
+        <p>Bonus Extra</p>
+    </div>
+    
+    <button class="collapsible"><span>02</span> Estequiometría</button>
+    <div class="content">
+        <p>Bienvenida</p>
+        <p>Mol</p>
+        <p>Quiz #1</p>
+        <p>Concentración de Mezclas</p>
+        <p>Ejercicios de Porcentajes</p>
+        <p>Quiz #2</p>
+        <p>Ejercicios de Molaridad</p>
+        <p>Quiz #3</p>
+        <p>Reacción Química</p>
+        <p>Balanceo de Reacciones Químicas</p>
+        <p>Ejercicios de Balanceo</p>
+        <p>Reacciones Redox</p>
+        <p>Reacciones Redox - Ejercicio I</p>
+        <p>Reacciones Redox - Ejercicio II</p>
+        <p>Quiz #4</p>
+        <p>Reacciones Ácido-Base</p>
+        <p>Ácidos-Bases Fuertes y Débiles</p>
+        <p>Quiz #5</p>
+    </div>
+    
+    <button class="collapsible"><span>03</span> Termodinámica</button>
+    <div class="content">
+        <p>Energía Interna</p>
+        <p>Calor Específico</p>
+        <p>Quiz #1</p>
+        <p>Entalpía</p>
+        <p>Entalpía de Reacción</p>
+        <p>Quiz #2</p>
+    </div>
+    
+    <button class="collapsible"><span>04</span> Cinética Química</button>
+    <div class="content">
+        <p>Velocidad de reacción y factores que influyen en ella</p>
+        <p>Quiz #1</p>
+    </div>
+    
+    <button class="collapsible"><span>05</span> Equilibrio Químico</button>
+    <div class="content">
+        <p>Equilibrio químico y Ley de Le Chatelier</p>
+        <p>Energía Libre de Gibbs y espontaneidad</p>
+        <p>Quiz #1</p>
+    </div>
+    
+    <button class="collapsible"><span>06</span> Química Orgánica</button>
+    <div class="content">
+        <p>Química del Carbono: Estructura tetraédrica y tipos de enlaces</p>
+        <p>Hidrocarburos</p>
+        <p>Tipos de Fórmulas</p>
+        <p>Examen #1</p>
+        <p>Nomenclatura de Alcanos Lineales</p>
+        <p>Nomenclatura de Hidrocarburos con Sustituyentes</p>
+        <p>Nomenclatura de Hidrocarburos con Sustituyentes Diferentes</p>
+        <p>Nomenclatura de Hidrocarburos con Sustituyentes Repetidos</p>
+        <p>Nomenclatura de Alquenos</p>
+        <p>Nomenclatura de Compuestos Cíclicos</p>
+        <p>Examen #2</p>
+        <p>Halogenuros de Alquilo</p>
+        <p>Alcoholes</p>
+        <p>Aldehidos y Cetonas</p>
+        <p>Ácidos Carboxílicos</p>
+        <p>Éter y Éster</p>
+        <p>Amina y Amida</p>
+        <p>Repaso de Grupos Funcionales</p>
+        <p>Nomenclatura de Compuestos Aromáticos</p>
+        <p>Isomeria Estructural</p>
+        <p>Isomería Espacial / Isomería Geométrica (cis-trans) </p>
+        <p>Examen #3</p>
+        <p>Proteínas</p>
+        <p>Carbohidratos</p>
+        <p>Lípidos</p>
+        <p>Examen #4</p>
+    </div>
+    
+    <button class="collapsible"><span>07</span> Química Ambiental</button>
+    <div class="content">
+        <p>Introducción al Ciclo del Nitrógeno</p>
+        <p>Ciclo del Nitrógeno</p>
+        <p>Ciclo del Carbono y Oxígeno</p>
+        <p>Examen #1</p>
+        <p>Feedback</p>
+        <p>Bonus Extra</p>
+        <p>¡Examen Final: Vuelta A! 🤓</p>
+        <p>¡Examen Final: Vuelta B! 😎</p>
+    </div>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
